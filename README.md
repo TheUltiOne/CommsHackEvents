@@ -1,16 +1,23 @@
 # CommsHackEvents
 You can use VirtualBrightPlayz's CommsHack with Events! All the events that are compatible are found in here!
 
-# P and S (used below, in compatible events.)
-**What does P and S mean?**
+### P and S (used below, in compatible events.)
+What does P and S mean?
 
-**P means player. This means that you can also use %playerName (S), %playerDisplayName (S), %playerRank (S), %playerRankColor (S), %playerRole (S), %playerSide (S)**
+P means player. This means that you can also use %playerName (S), %playerDisplayName (S), %playerRank (S), %playerRankColor (S), %playerRole (S), %playerSide (S)
 
-**Attempting to use %player will be changed to nothing, and be erased, instead, use one of the strings of text instead above.**
+Attempting to use %player will be changed to nothing, and be erased, instead, use one of the strings of text instead above.
 
-**You can also use %serverName, or %playerListTitle**
+You can also use %serverName, or %playerListTitle
 
-**S means string. This means that it is just text.**
+S means string. This means that it is just text.
+
+### Functions
+You can use premade functions. These are the ones you can use:
+```
+MakeSCPAnnouncement - Announces what SCPs are in the game, and how many
+ScanFacility - Scans the facility, detects how many Class-D, Scientists, NTF, CI and SCPs.
+```
 
 # Compatible events
 **OnJoined** - %player P
@@ -63,4 +70,10 @@ Events_Cassie:
 
     OnRespawningCI: Chaos Insurgency has entered the facility
     OnDetonating: Facility has been detonated
+
+Events_Sounds:
+    OnRoundEnded: BRUUUUUUUUUUUUUUUUUUUUHHHHH.mp3
+ 
+Events_Functions:
+    OnRoundStarted: MakeSCPAnnouncement
 ```
