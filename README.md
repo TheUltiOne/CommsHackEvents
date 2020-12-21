@@ -1,5 +1,7 @@
 # CommsHackEvents
 You can use VirtualBrightPlayz's CommsHack with Events! All the events that are compatible are found in here!
+This plugin allows you to use premade functions, broadcasts, Cassie Announcements, audio files at specific events!
+
 
 ## P and S (used below, in compatible events.)
 What does P and S mean?
