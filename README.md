@@ -1,7 +1,7 @@
 # CommsHackEvents
 You can use VirtualBrightPlayz's CommsHack with Events! All the events that are compatible are found in here!
 
-### P and S (used below, in compatible events.)
+## P and S (used below, in compatible events.)
 What does P and S mean?
 
 P means player. This means that you can also use %playerName (S), %playerDisplayName (S), %playerRank (S), %playerRankColor (S), %playerRole (S), %playerSide (S)
@@ -12,7 +12,7 @@ You can also use %serverName, or %playerListTitle
 
 S means string. This means that it is just text.
 
-### Functions
+## Functions
 You can use premade functions. These are the ones you can use:
 ```
 MakeSCPAnnouncement - Announces what SCPs are in the game, and how many
