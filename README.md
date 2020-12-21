@@ -11,32 +11,46 @@ You can use VirtualBrightPlayz's CommsHack with Events! All the events that are 
 **S means string. This means that it is just text.**
 
 # Compatible events
-OnJoined - %player P
+**OnJoined** - %player P
 
-OnLeft - %player P
+**OnLeft** - %player P
 
-OnRestartingRound
+**OnRestartingRound**
 
-OnEndingRound
+**OnEndingRound
 
-OnRoundStarting
+**OnRoundStarting
 
-OnInsertingGeneratorTablet - %player P
+**OnInsertingGeneratorTablet** - %player P
 
-OnEjectingGeneratorTablet - %player P
+**OnEjectingGeneratorTablet** - %player P
 
-OnDying - %player P | %killerName S
+**OnDying** - %player P | %killerName S | %deathCause S
 
-OnHurting - %player P | %killerName S
+**OnHurting** - %player P | %killerName S | %hurtCause S
 
-OnEnteringFemurBreaker - %player P
+**OnEnteringFemurBreaker** - %player P
 
-OnActivatingWarheadPanel - %player P 
+**OnActivatingWarheadPanel** - %player P 
 
-OnKicked - %player P | %kickerName S | %reason S
+**OnKicked** - %player P | %kickerName S | %reason S
 
-OnBanned - %player P | %bannerName S | %reason S
+**OnBanned** - %player P | %bannerName S | %reason S
 
-OnEscapingPocketDimension - %player P
+**OnEscapingPocketDimension** - %player P
 
-OnDetonating - %player P
+**OnFailingEscapePocketDimension** - %player P
+
+**OnDetonating** - %player P
+
+**OnRespawningTeam** - %team S | %numberofplayers S
+
+**OnRespawningMTF** - %numbeofplayers S
+
+**OnRespawningCI** - %numberofplayers S
+
+Planned feature: OnRespawningSH
+
+# Example of use
+Events_Broadcast:
+    OnPlayerJoin: 
