@@ -1,8 +1,7 @@
 # CommsHackEvents
 You can use VirtualBrightPlayz's CommsHack with Events! All the events that are compatible are found in here!
 
-# Compatible events:
-
+# P and S (used below, in compatible events.)
 **What does P and S mean?**
 
 **P means player. This means that you can also use %playerName (S), %playerDisplayName (S), %playerRank (S), %playerRankColor (S), %playerRole (S), %playerSide (S)**
@@ -11,7 +10,7 @@ You can use VirtualBrightPlayz's CommsHack with Events! All the events that are 
 
 **S means string. This means that it is just text.**
 
-
+# Compatible events
 OnJoined - %player P
 
 OnLeft - %player P
