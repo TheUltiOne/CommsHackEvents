@@ -6,7 +6,9 @@ You can use VirtualBrightPlayz's CommsHack with Events! All the events that are 
 
 **P means player. This means that you can also use %playerName (S), %playerDisplayName (S), %playerRank (S), %playerRankColor (S), %playerRole (S), %playerSide (S)**
 
-**Attempting to use %player will result in an error, instead, use one of the strings of text instead above.**
+**Attempting to use %player will be changed to nothing, and be erased, instead, use one of the strings of text instead above.**
+
+**You can also use %serverName, or %playerListTitle**
 
 **S means string. This means that it is just text.**
 
@@ -17,9 +19,9 @@ You can use VirtualBrightPlayz's CommsHack with Events! All the events that are 
 
 **OnRestartingRound**
 
-**OnEndingRound
+**OnEndingRound**
 
-**OnRoundStarting
+**OnRoundStarting**
 
 **OnInsertingGeneratorTablet** - %player P
 
@@ -52,5 +54,13 @@ You can use VirtualBrightPlayz's CommsHack with Events! All the events that are 
 Planned feature: OnRespawningSH
 
 # Example of use
+```
 Events_Broadcast:
-    OnPlayerJoin: 
+
+    OnPlayerJoin: %playerName (<color=%playerRankColor>%playerRank</color) has joined %serverName!
+
+Events_Cassie:
+
+    OnRespawningCI: Chaos Insurgency has entered the facility
+    OnDetonating: Facility has been detonated
+```
