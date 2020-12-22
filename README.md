@@ -14,7 +14,7 @@ You can also use %serverName, or %playerListTitle
 
 S means string. This means that it is just text.
 
-## Functions
+## Functions (DOES NOT WORK AT THE MOMENT)
 You can use premade functions. These are the ones you can use:
 ```
 MakeSCPAnnouncement - Announces what SCPs are in the game, and how many
@@ -44,7 +44,7 @@ ScanFacility - Scans the facility, detects how many Class-D, Scientists, NTF, CI
 
 **OnActivatingWarheadPanel** - %player P 
 
-**OnKicked** - %player P | %moderator S | %reason S
+**OnKicked** - %player P | %reason S
 
 **OnBanned** - %player P | %moderator S | %reason S
 
@@ -60,7 +60,12 @@ ScanFacility - Scans the facility, detects how many Class-D, Scientists, NTF, CI
 
 **OnRespawningCI** - %numberOfPlayers S
 
-Planned feature: OnRespawningSH (Serpent's Hand)
+Planned features: 
+OnRespawningSH (Serpent's Hand)
+OnEscaping
+OnTriggeringTeslaGates
+
+More functions
 
 # Example of use
 ```
