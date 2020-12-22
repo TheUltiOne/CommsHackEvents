@@ -12,7 +12,7 @@ namespace CommsHackEvents
         public Dictionary<string, string> EventsSounds = new Dictionary<string, string>() { { "OnJoined", "example.mp3" }, { "OnLeft", "example2.mp3" }, { "OnWaitingForPlayers", "example.mp3" } };
 
         [Description("Sets the volume of sounds played")]
-        public int Volume = 5;
+        public float Volume = 0.5f;
 
         [Description("Sets the events where Cassie can talk. Usage: EventName -> Message to say | Compatible events can be found in the README")]
         public Dictionary<string, string> EventsCassie = new Dictionary<string, string>() { { "OnInsertingGeneratorTablet", "GENERATOR ENGAGED IN T-MINUS 90 SECONDS" }, { "OnEjectingGeneratorTablet", "GENERATOR CANCELLED"} };
