@@ -84,3 +84,7 @@ Events_Sounds:
 Events_Functions:
     OnRoundStarted: MakeSCPAnnouncement
 ```
+
+# Warnings
+For Events_Sounds to function, you will need VirtualBrightPlayz's CommsHack plugin, which can be found in releases/in it's original repo.
+Functions do not work at the moment
