@@ -36,17 +36,17 @@ ScanFacility - Scans the facility, detects how many Class-D, Scientists, NTF, CI
 
 **OnEjectingGeneratorTablet** - %player P
 
-**OnDying** - %player P | %killerName S | %deathCause S
+**OnDying** - %player P | %attackerName S | %cause S
 
-**OnHurting** - %player P | %killerName S | %hurtCause S
+**OnHurting** - %player P | %attackerName S | %cause S
 
 **OnEnteringFemurBreaker** - %player P
 
 **OnActivatingWarheadPanel** - %player P 
 
-**OnKicked** - %player P | %kickerName S | %reason S
+**OnKicked** - %player P | %moderator S | %reason S
 
-**OnBanned** - %player P | %bannerName S | %reason S
+**OnBanned** - %player P | %moderator S | %reason S
 
 **OnEscapingPocketDimension** - %player P
 
@@ -54,13 +54,13 @@ ScanFacility - Scans the facility, detects how many Class-D, Scientists, NTF, CI
 
 **OnDetonating** - %player P
 
-**OnRespawningTeam** - %team S | %numberofplayers S
+**OnRespawningTeam** - %team S | %numberOfPlayers S
 
-**OnRespawningMTF** - %numbeofplayers S
+**OnRespawningMTF** - %numberOfPlayers S
 
-**OnRespawningCI** - %numberofplayers S
+**OnRespawningCI** - %numberOfPlayers S
 
-Planned feature: OnRespawningSH
+Planned feature: OnRespawningSH (Serpent's Hand)
 
 # Example of use
 ```
