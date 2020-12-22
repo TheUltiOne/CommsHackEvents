@@ -36,9 +36,9 @@ ScanFacility - Scans the facility, detects how many Class-D, Scientists, NTF, CI
 
 **OnEjectingGeneratorTablet** - %player P
 
-**OnDying** - %player P | %attackerName S | %cause S
+**OnDying** - %player P | %attackerName S | %cause S | %damage S
 
-**OnHurting** - %player P | %attackerName S | %cause S
+**OnHurting** - %player P | %attackerName S | %cause S | %damage S
 
 **OnEnteringFemurBreaker** - %player P
 
