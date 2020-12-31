@@ -1,4 +1,4 @@
-# CommsHackEvents
+# CommsHackEvents (The plugin is confirmed not to work. Fix pending.)
 You can use VirtualBrightPlayz's CommsHack with Events! All the events that are compatible are found in here!
 This plugin allows you to use premade functions, broadcasts, Cassie Announcements, audio files at specific events!
 
